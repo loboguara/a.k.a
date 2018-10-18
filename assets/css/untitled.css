@@ -1,13 +1,13 @@
 .footer::before {
-  position: absolute;
-  top: 1045px;
-  right: 0;
-  left: 0;
-  height: 500px;
-  content: '';
-  transform: skew(0,-5deg);
-  background: #f4f5f7;
-  z-index: -1;
+  /*position: absolute;*/
+  /*top: 1045px;*/
+  /*right: 0;*/
+  /*left: 0;*/
+  /*height: 640px;*/
+  /*content: '';*/
+  /*transform: skew(0,-5deg);*/
+  /*background: #f4f5f7;*/
+  /*z-index: -1;*/
 }
 
 .alle::before {
