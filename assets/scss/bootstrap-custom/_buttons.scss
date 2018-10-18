@@ -11,12 +11,17 @@
     &:hover {
         @include box-shadow($btn-hover-box-shadow);
         transform: translateY(-1px);
+
     }  
 
     &:not(:last-child) {
         margin-right: .5rem;
     }
+    &:focus, .focus {
+        box-shadow: none!important;
+    }
 }
+
 
 .btn-group,
 .input-group {

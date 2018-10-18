@@ -19,27 +19,27 @@
 "use strict";
 $(document).ready(function() {
 
-    // Collapse navigation
-    $('.navbar-main .collapse').on('hide.bs.collapse', function () {
-        var $this = $(this);
-        $this.addClass('collapsing-out');
-    });
+    // // Collapse navigation
+    // $('.navbar-main .collapse').on('hide.bs.collapse', function () {
+    //     var $this = $(this);
+    //     $this.addClass('collapsing-out');
+    // });
 
-    $('.navbar-main .collapse').on('hidden.bs.collapse', function () {
-        var $this = $(this);
-        $this.removeClass('collapsing-out');
-    });
+    // $('.navbar-main .collapse').on('hidden.bs.collapse', function () {
+    //     var $this = $(this);
+    //     $this.removeClass('collapsing-out');
+    // });
 
-    $('.navbar-main .dropdown').on('hide.bs.dropdown', function () {
-        var $this = $(this).find('.dropdown-menu');
+    // $('.navbar-main .dropdown').on('hide.bs.dropdown', function () {
+    //     var $this = $(this).find('.dropdown-menu');
 
-        $this.addClass('close');
+    //     $this.addClass('close');
 
-        setTimeout(function(){
-            $this.removeClass('close');
-        }, 200);
+    //     setTimeout(function(){
+    //         $this.removeClass('close');
+    //     }, 200);
 
-    });
+    // });
 
     // Headroom - show/hide navbar on scroll
     if($('.headroom')[0]) {
