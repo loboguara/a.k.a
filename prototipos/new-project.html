@@ -18,7 +18,7 @@
             <div class="container-fluid" style="max-width: 1040px;"><a class="navbar-brand" href="#">A.k.a</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1" style="content: '';vertical-align: middle;background: no-repeat center center;background-size: 100% 100%;"><span class="sr-only" style="position: absolute;width: 1px;height: 1px;padding: 0;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border: 0;">Toggle navigation</span><span class="navbar-toggler-icon" style="display: inline-block;width: 1.5em;height: 1.5em;vertical-align: middle;content: &quot;&quot;;"></span></button>
                 <div
                     class="collapse navbar-collapse d-flex justify-content-end" id="navcol-1">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav d-none">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Perfil</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Perfil</a></li>
                     </ul>
@@ -38,57 +38,74 @@
                 <div class="row justify-content-center" style="z-index: 104;">
                     <div class="col col-lg-8"><img src="../assets/img/Alle.png" width="170" class="img-fluid rounded-circle shadow" style="position: absolute;left: 50%;max-width: 184px;transition: all .15s ease;transform: translate(-50%,-30%);top: -133px;">
                         <h2 class="mb-0" style="font-weight: 700;">Alexandra Kern<span style="font-weight: 300;">, 27</span></h2>
-                        <h4 class="text-primary" style="font-weight: 300;">Porto Alegre, Brasil</h4>
-                        <div class="h6 mt-4">
-                            <h5 style="margin-top: 1.5rem!important;">UX Designer - Linx + DCG<span class="d-block ni business_briefcase-24" style="font-weight: 300;">Universidade Federal de Pelotas<br></span></h5>
+                        <h6 class="text-primary" style="font-weight: 300;">Porto Alegre, Brasil</h6>
+                        <div class="mt-3">
+                            <h5>UX Designer - Linx + DCG<small class="text-light d-block" style="font-weight: 300;">Mestra pela Universidade Federal de Pelotas</small></h5>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8">
-                        <p>An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist
-                            of considerable range.<br></p>
+                        <p class="lead mb-0">Bacharela em Arte Visuais, Mestra em Poéticas Visuais e concluíndo o curso de Pós-Graduação em User Experience na UniRitter. Atualmente sou UX designer na LINX + DCG commerce.<br></p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section section-lg section-nucleo-icons pb-5">
+        <section class="section section-lg section-nucleo-icons">
             <div class="container">
                 <div class="row">
-                    <div class="col d-flex justify-content-center mb-5"><button class="btn btn-success btn-lg" type="button" data-toggle="collapse" aria-expanded="true" aria-crontrols="collapse-1" role="button" href="#collapse-1">Formação</button><button class="btn btn-primary btn-lg" type="button">Experiência</button></div>
+                    <div class="col d-flex justify-content-center mb-5"><button class="btn btn-success btn-lg" type="button" data-toggle="collapse" aria-expanded="true" aria-crontrols="collapse-1" role="button" href="#collapse-1">Formação</button><button class="btn btn-primary btn-lg" type="button" data-toggle="collapse"
+                            aria-expanded="true" aria-crontrols="collapse-2" role="button" href="#collapse-2">experiência</button></div>
                 </div>
-                <div class="row collapse" id="collapse-1">
-                    <div class="col">
-                        <div class="card card card-lift--hover shadow border-0">
-                            <div class="card-body"><img src="../assets/img/200px-UFPEL-ESCUDO-2013.png" width="50" class="mb-3">
-                                <h6 class="mb-0">Language Arts Teacher</h6>
-                                <h6>Universidade Federal de Pelotas</h6>
-                                <h6 class="mb-0">Jul de 2014 - dez de 2014</h6>
-                            </div>
-                        </div>
+                <div class="row collapse show" id="collapse-1">
+                    <div class="col-12">
+                        <h4 class="text-center text-success mb-4" style="/*font-weight: 700;*/">Formação</h4>
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 mb-5">
                         <div class="card card card-lift--hover shadow border-0">
                             <div class="card-body"><img src="../assets/img/Uniritter%20logo.svg" width="50" class="mb-3">
-                                <h6 class="mb-0">Language Arts Teacher</h6>
-                                <h6>Universidade Federal de Pelotas</h6>
-                                <h6 class="mb-0">Jul de 2014 - dez de 2014</h6>
-                            </div>
+                                <h5 class="mb-0">User Experiênce</h5><span>Pós-graduação UniRitter<br></span><small>Jul de 2014 - dez de 2014<br></small></div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-4 mb-5">
+                        <div class="card card card-lift--hover shadow border-0">
+                            <div class="card-body"><img src="../assets/img/200px-UFPEL-ESCUDO-2013.png" width="50" class="mb-3">
+                                <h5 class="mb-0">Mestrado em Artes Visuais</h5><span>PPGAV - UFPEL<br></span><small>jan de 2014 - jan de 2016<br></small></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
                         <div class="card">
                             <div class="card-body card card-lift--hover shadow border-0"><img src="../assets/img/200px-UFPEL-ESCUDO-2013.png" width="50" class="mb-3">
-                                <h6 class="mb-0">Language Arts Teacher</h6>
-                                <h6>Universidade Federal de Pelotas</h6>
-                                <h6 class="mb-0">Jul de 2014 - dez de 2014</h6>
-                            </div>
+                                <h5 class="mb-0">Bacharel em Artes Visuais</h5><span>PPGAV - UFPEL<br></span><small>Jan de 2010 - dez de 2013<br></small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row collapse show" id="collapse-2">
+                    <div class="col-12">
+                        <h4 class="text-center text-primary mb-4" style="/*font-weight: 700;*/">Experiência</h4>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card card card-lift--hover shadow border-0">
+                            <div class="card-body"><img src="../assets/img/0.png" width="50" class="mb-3" style="border-radius: 50%;">
+                                <h5 class="mb-0">Linx + DCG</h5><span>UX designer<br></span><small>maio de 2018 - Atual<br></small></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card card card-lift--hover shadow border-0">
+                            <div class="card-body"><img src="../assets/img/0%20(1).png" width="50" class="mb-3" style="border-radius: 50%;">
+                                <h5 class="mb-0">Agência Kaizen</h5><span>Head de Design<br></span><small>jan de 2017 - dez de 2017<br></small></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card">
+                            <div class="card-body card card-lift--hover shadow border-0"><img src="../assets/img/200px-UFPEL-ESCUDO-2013.png" width="50" class="mb-3">
+                                <h5 class="mb-0">Prof. de Desenho Avançado</h5><span>Artes Visuais - UFPEL<br></span><small>jul de 2014 - jul de 2015<br></small></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section section-lg section-nucleo-icons pb-5">
+        <section class="section section-lg section-nucleo-icons pb-5 pt-3">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-12 col-md-6 mb-5">
