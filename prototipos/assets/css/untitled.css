@@ -1,0 +1,16 @@
+body {
+}
+
+.gradient {
+  background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+}
+
+.portfolio-block .heading h2 {
+  text-transform: initial;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
